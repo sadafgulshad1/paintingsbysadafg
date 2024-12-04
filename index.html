@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paintingsbysadafg</title>
+  <style>
+    body {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      margin: 0;
+      padding: 0;
+      background-color: #4a4d39;
+      color: #17291a;
+    }
+    header {
+      background-color: #333333;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 10px;
+      padding: 20px;
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      cursor: pointer;
+      transition: transform 0.3s;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #333;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Paintingsbysadafg</h1>
+    <p>Explore and buy original artworks by Sadaf Gulshad.</p>
+  </header>
+
+  <main>
+    <div class="gallery">
+      <!-- Example image items -->
+      <a href="art1.html" target="_blank"><img src="calligraphy_1.jpg" alt="Artwork 1"></a>
+      <a href="art2.html" target="_blank"><img src="boat_1.jpg" alt="Artwork 2"></a>
+      <a href="art3.html" target="_blank"><img src="window.jpg" alt="Artwork 3"></a>
+      <a href="art4.html" target="_blank"><img src="cafe.jpg" alt="Artwork 4"></a>
+      <a href="art5.html" target="_blank"><img src="Flowers.jpg" alt="Artwork 5"></a>
+      <a href="art6.html" target="_blank"><img src="bench.jpg" alt="Artwork 6"></a>
+    </div>
+    
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Paintingsbysadafg | Designed by Sadaf</p>
+    <p>Follow me on: 
+      <a href="https://www.instagram.com/p/C9mi0lhigD0/?hl=en" target="_blank" style="text-decoration: none;">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" 
+             alt="Instagram" 
+             style="width: 24px; height: 24px; vertical-align: middle;"> 
+        <span style="color: #E1306C; font-weight: bold; margin-left: 8px;"></span>
+      </a>
+    </p>
+  </footer>
+</body>
+</html>
